@@ -1,11 +1,11 @@
 <div class="container-fluid">
     <h2 class="text-center">Create a new Goal</h2>
     <hr>
-    <form (ngSubmit)='submitGoal()' #goalForm='ngForm'>
+    <form >
         <div class="form-group">
   
             <label for="name">Name</label>
-            <input type="text" required class="form-control" id="name" [(ngModel)]="newGoal.name" name="name">
+            <input type="text" required class="form-control" id="name" name="name">
         </div>
         <div class="form-group">
   
@@ -18,5 +18,6 @@
             <input type='date' id="complete" required>
   
         </div>
+        <button>Button</button>
     </form>
   </div>
